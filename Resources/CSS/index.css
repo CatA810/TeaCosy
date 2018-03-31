@@ -12,6 +12,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-top: 0;
 }
 
 h2, h3, h4 {
@@ -41,6 +42,7 @@ header {
 header img {
 height: 50px;
 padding-left: 10px;
+position:
 }
 
 a {
@@ -82,6 +84,12 @@ nav{
   padding-top: 70px;
 }
 
+.flex-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
 div{
   display: block;
 }
@@ -112,7 +120,7 @@ div{
   padding-top: 70px;
 }
 
-.flex-container.locations{
+.flex-container .locations{
   padding: 5px;
 }
 
